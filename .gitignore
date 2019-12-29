@@ -471,3 +471,11 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 
+# dont post my data
+*.csv
+
+# dont post my tex files
+*.tex
+
+# dont post my pdfs
+*.pdf
