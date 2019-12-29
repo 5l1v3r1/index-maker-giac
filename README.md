@@ -8,3 +8,4 @@ Just a little index maker for GIAC exam books since I was having problems with v
  - Run `./index_maker.py -h` for help
  - Must provide CSV file with four fields
    - index_entry, description, book, page #
+   - make sure there are no commas in file except to seperate fields
