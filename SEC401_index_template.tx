@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{sectsty} 
+ 
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\setcounter{secnumdepth}{0}
+\allsectionsfont{\centering} 
+ 
+\begin{document}
+\begin{multicols}{2}
+[
+\section{T}
+]
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\textbf{Trvial File Transfer Protocol} Definition – UDP [b.1/pg.76]\\
+\end{multicols}
+\newpage
+\begin{multicols}{2}
+[
+\section{U}
+]
+\textbf{windump} Start of Book Section [b.1/pg.79]\\
+\end{multicols}
+ 
+\end{document}
+
