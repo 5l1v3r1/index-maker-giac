@@ -1,0 +1,219 @@
+index_name,comment,book,page
+Conceptual Design,Definition,1,13
+Logical Design,Definition,1,13
+Physical Design,Definition,1,13
+Architecture / System,Listing of items,1,13
+Communication Flow,Introduction and Understanding,1,13
+Data,Knowing Where Valuable is,1,13
+Conceptual Design,In Depth,1,14
+Black Box Diagramming,Definition,1,14
+Logical Design,In Depth,1,15
+Physical Design,In Depth,1,16
+Communication Flow,In Depth,1,17
+Data – Know Where Valuable Is,In Depth,1,18
+Networks – Under Attack,Attacks on Network rather than servers,1,20
+Router,Definition,1,20
+Switch,Definition,1,20
+Threat Enumeration,List/ Definition/ Explanation,1,21
+Threat Agents,List all / as pertains to threat enumeration,1,21
+Attack Methods,As pertains to threat enumeration,1,21
+System-Level Objectives,As pertains to threat enumeration,1,21
+Objectives,System Level / As pertains to threat enumeration,1,21
+Threat Agents,Definition / list of Agents / Attributes,1,22
+Criminals – Cyber / Organized Crime,As pertains to threat agents,1,22
+Cyber Criminals,As pertains to threat agents,1,22
+Organized Crime,As pertains to threat agents,1,22
+Crime – Cyber /Organized,As pertains to threat agents,1,22
+Cyber Espionage,As pertains to threat agents,1,23
+Espionage / Cyber,As pertains to threat agents,1,23
+Activist – Computer or Hacktivist,As pertains to threat agents,1,23
+Hacktivist,As pertains to threat agents,1,23
+Router Attacks,Listing of Attacks,1,24
+Denial of Service,As Router Attack,1,24
+DOS,As Router Attack,1,24
+Distributed Denial of Service,As Router Attack,1,24
+Packet Sniffing,As Router Attack,1,24
+Packet Miss-routing,As Router Attack,1,24
+SYN Flood Attack,As Router Attack,1,24
+TCP Reset Attack,As Router Attack,1,24
+Reset Attack – TCP,As Router Attack,1,24
+Flood Attack – SYN,As Router Attack,1,24
+Routing Table Poisoning,As Router Attack,1,25
+Poisoning – Routing Table,As Router Attack,1,25
+Malicious Insider,As Router Attack,1,25
+Disgruntled Employee,As Router Attack,1,25
+Employee – Disgruntled,As Router Attack,1,25
+Attack / Router,Listing of Attacks,1,24
+Switch Attacks,Listing of Attacks,1,26
+Attack / Switch,Listing of Attacks,1,26
+CDP Manipulation,As Switch Attack,1,27
+MAC Flooding,As Switch Attack,1,27
+DHCP Spoofing,As Switch Attack,1,27
+STP Attacks,As Switch Attack,1,27
+VLAN Hopping,As Switch Attack,1,27
+Telnet Attack,As Switch Attack,1,27
+SYN Attack / Distributed,As Switch Attack,1,27
+Distributed SYN Attack,As Switch Attack,1,27
+Topologies ,Two Types / Definition,1,28
+Physical Topology,Definition,1,28
+Logical Topology,Definition,1,28
+Star Topology,As Physical Topology,1,28
+Topology / Physical,Definition,1,28
+Topology / Logical,Definition,1,28
+Ethernet,Definition and Explanation,1,29
+Frame,As part of Ethernet,1,29
+CSMA/CD,Protocol / Definition,1,29
+Carrier Sense Multiple Access Collision Detection,Protocol / Definition,1,29
+Network Design Approaches,Listing and Description,1,31
+Segmentation,As Network Design,1,31
+Protected Enclave,As Network Design,1,31
+Enclave / Protected,As Network Design,1,31
+Software Defined Networking (SDN),As Network Design,1,31
+SDN / Software Defined Networking,As Network Design,1,31
+Micro-Segmentation,As Network Design and Part of SDN,1,31
+Network Segment,As Network Design and Part of Segmentation,1,31
+Least Privilege Rule,As Network Design and Part of Segmentation,1,31
+Whitelisting,As Network Design and Part of Segmentation,1,31
+Network Architecture Design,Data Flow Analysis and Prioritization,1,33
+Architecture / Network Design,Data Flow Analysis and Prioritization,1,33
+Net Flow,Definition / How used in Network Architecture Design,1,33
+Data Flow,Definition / How used in Network Architecture Design,1,33
+Flow / Net and Data,Definition / How used in Network Architecture Design,1,33
+Network Design Objectives,Listing of Objectives / Examples,1,34
+Defense in Depth,Definition/ As part of Design Objectives,1,34
+Network Sections,Listing of Sections,1,35
+Public,As Network Section,1,35
+Sections / Network,Listing of Sections,1,35
+Semi-public (DMZ),As Network Section,1,35
+DMZ / Semi-Public,As Network Section,1,35
+Middleware,As Network Section,1,35
+Private / Internal Systems,As Network Section,1,35
+Internal Systems / Private,As Network Section,1,35
+Firewall,Where to locate / Network Sections,1,35
+Three Goals of Network Design,Listing  ,1,36
+Goals / Network Design,Listing  ,1,36
+Network / Design Goals,Listing  ,1,36
+Defense in Depth,As pertains to network sections,1,36
+Border Router,Definition,1,36
+Router / Border,Definition,1,36
+Network / Final Design,Illustration,1,38
+Protocol / Network,Definition,1,43
+Network Protocol,Definition,1,43
+Protocol Stack,Definition,1,43
+Stack / Protocol,Definition,1,43
+Protocol Stack,Purpose for Communication Protocols,1,44
+OSI Protocol Stack ,Diagram and Listing of Layers,1,45
+Open Systems Interconnected Model,Diagram and Listing of Layers,1,45
+Application Layer,Definition,1,45
+Presentation Layer,Definition,1,45
+Session Layer,Definition,1,45
+Transport Layer,Definition,1,45
+Network Layer,Definition,1,45
+Data Link Layer,Definition,1,45
+Physical Layer,Definition,1,45
+OSI vs TCP/IP,Comparison and Diagrams,1,47
+TCP/IP vs. OSI,Comparison and Diagrams,1,47
+Communication / Protocol Stacks,Diagram and Explanation,1,48
+Protocol Stacks Communication ,Diagram and Explanation,1,48
+TCP/IP Packet Generation,Diagram and Explanation,1,49
+Packet Generation TCP/IP,Diagram and Explanation,1,49
+IP,Description and Explanation,1,52
+Internet Protocol (IP),Description and Explanation,1,52
+IPv4 vs IPv6,Age and Addresses,1,53
+IPv6 vs IPv4,Age and Addresses,1,53
+IPv4 vs IPv6,Additional Benefits of IPv6,1,54
+IPv4 Header,Diagram  ,1,55
+Header / IPv4,Diagram  ,1,55
+Options / IPv4,Examples – Rarely Used,1,55
+IPv4 Options,Examples – Rarely Used,1,55
+IPv4 Key Header Fields,Listing and Description,1,56
+Header / IPv4 Key Fields,Listing and Description,1,56
+IP Version,IPv4 Header Field Description,1,56
+Protocol,IPv4 Header Field Description,1,56
+Time-to-Live,IPv4 Header Field Description,1,56
+Fragmentation,IPv4 Header Field Description,1,57
+Address / Source and Destination,IPv4 Header Field Description,1,57
+Source and Address Destination,IPv4 Header Field Description,1,57
+Destination and Source Address,IPv4 Header Field Description,1,57
+IPv6 Header,Diagram and Key Fields,1,58
+Header / IPv6,Diagram and Key Fields,1,58
+IP Version,IPv6 Header Field Description,1,58
+Traffic Class,IPv6 Header Field Description,1,58
+Flow Label,IPv6 Header Field Description,1,58
+Payload Length,IPv6 Header Field Description,1,58
+Next Header,IPv6 Header Field Description,1,58
+Hop Limit,IPv6 Header Field Description,1,58
+Source Address,IPv6 Header Field Description,1,58
+Destination Address,IPv6 Header Field Description,1,58
+Address / IPv6 Source,IPv6 Header Field Description,1,58
+Address / IPv6 Destination,IPv6 Header Field Description,1,58
+IPv6 Features,List of Features,1,59
+tunneling,IPv6 over IPv4,1,59
+translation,IPv4 over IPv6,1,59
+IP Protocols and the OSI Model,Diagram  ,1,60
+ICMP,Start of Book Section,1,61
+Internet Control Message Protocol (ICMP),Start of Book Section,1,61
+ICMP,Two Purposes of,1,62
+Internet Control Message Protocol (ICMP),Two Purposes of,1,62
+Ping,Use of and Packet Type,1,62
+ICMP Header Fields,Key Fields Diagram and Descriptions,1,63
+ICMP Type,ICMP Header Field Description,1,63
+ICMP Code,ICMP Header Field Description,1,63
+ICMP Checksum,ICMP Header Field Description,1,63
+ICMP Payload,ICMP Header Field Description,1,63
+Type ICMP,ICMP Header Field Description,1,63
+Code ICMP,ICMP Header Field Description,1,63
+Checksum ICMP,ICMP Header Field Description,1,63
+Payload ICMP,ICMP Header Field Description,1,63
+ICMP Common Types and Codes,Listing and description,1,64
+TCP,Start of Book Section,1,66
+TCP,Overview and Description,1,67
+TCP,Uses,1,68
+Guaranteed Delivery,TCP,1,68
+TCP Common Ports,Listing  ,1,68
+Three Way Handshake,Description,1,69
+SYN Segment,TCP description,1,69
+SYN / ACK,TCP description,1,69
+ACK,TCP description,1,69
+TCP Connection,Description,1,69
+TCP Header,Listing of Items and Description,1,70
+Sequence Number,TCP Header Field,1,70
+Source Port,TCP Header Field,1,70
+Destination Port,TCP Header Field,1,70
+Acknowledgment Number,TCP Header Field,1,70
+Data Offset,TCP Header Field,1,70
+Window Size,TCP Header Field,1,70
+Checksum TCP,TCP Header Field,1,71
+Urgent Pointer,TCP Header Field,1,71
+Options TCP,TCP Header Field,1,71
+TCP Closing Connection,Description and Diagram,1,72
+Closing Connection TCP,Description and Diagram,1,72
+FIN,TCP Description,1,72
+RST,TCP Description,1,72
+Listen,TCP state,1,72
+Closed,TCP State,1,73
+UDP,Start of Book Section,1,74
+User Datagram Protocol,Start of Book Section,1,74
+UDP,Description and Benefits,1,75
+UDP Common Ports,Listing and application types that use,1,76
+NTP,Definition – UDP,1,76
+Network Time Protocol,Definition – UDP,1,76
+BOOTP/DHCP protocols,Definition – UDP,1,76
+NFS (Network File System),Definition – UDP,1,76
+Network File System,Definition – UDP,1,76
+Simple Network Management Protocol,Definition – UDP,1,76
+SNMP,Definition – UDP,1,76
+Trivial File Transfer Protocol,Definition – UDP,1,76
+TFTP,Definition – UDP,1,76
+UDP Header,Size Description and Diagram,1,77
+Header UDP,Size Description and Diagram,1,77
+Source Port,UDP Header Field,1,77
+Destination Port,UDP Header Field,1,77
+Length,UDP Header Field,1,77
+Checksum,UDP Header Field,1,77
+Data,UDP Header Field,1,77
+tcpdump,Start of Book Section,1,79
+windump,Start of Book Section,1,79
+tcpdump,description and analysis,1,80
+tcpdump ,Usage common arguments and examples,1,81
+Summary – Networking and Protocols,summary of section,1,82
