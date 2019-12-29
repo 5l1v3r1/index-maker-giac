@@ -1,4 +1,8 @@
+#!/bin/python3
+
 import csv
+import argparse
+import os
 
 ALPHABET_DICT = {
 				 'A':[],  'B':[], 'C':[], 'D':[], 'E':[], 'F':[], 'G':[], 'H':[], 'I':[], 'J':[], 'K':[], 'L':[], 'M':[],
@@ -48,26 +52,46 @@ def make_index_pages():
 	return pages
 
 
-# open file and read into index_dict
-with open('401_index.csv', newline='') as csvfile:
-	index_dict = sorted(csv.reader(csvfile))
-	#for row in index_dict:
-	#	print(row)
+def make_index(infile, outfile):
+	# open file and read into index_dict
+	with open(infile, newline='') as csvfile:
+		index_dict = sorted(csv.reader(csvfile))
+		#for row in index_dict:
+		#	print(row)
 
 
-# Make dictionary to hold by letter
-for letter in ALPHABET_DICT:
-	for row in index_dict:
-		if (row[0][0].upper() == letter):
-			ALPHABET_DICT[letter].append(row)
+	# Make dictionary to hold by letter
+	for letter in ALPHABET_DICT:
+		for row in index_dict:
+			if (row[0][0].upper() == letter):
+				ALPHABET_DICT[letter].append(row)
 
 
 
-document = TEX_PREAMBLE
-document += make_index_pages()
-document += TEX_POST_DOC
+	document = TEX_PREAMBLE
+	document += make_index_pages()
+	document += TEX_POST_DOC
 
-with open('generated_index.tex', 'w') as outfile:
-	outfile.write(document)
+	with open('generated_index.tex', 'w') as newfile:
+		newfile.write(document)
+
+	print(outfile)
+	os.system('pdflatex -output-directory=. -jobname=' + outfile + ' generated_index.tex')
+	os.system('rm *.tex')
+	os.system('rm *.aux')
+	os.system('rm *.log')
 
 
+description = "Makes a PDF index from CSV file suitable for use in GIAC Exams\n"
+description += "Must have latex installed.  On Ubuntu use 'sudo apt install texlive-full'\n"
+description += "Warning - texlive-full is a large download and can take a while.\n"
+description += "Do Not use an extension on the outfile arg.  pdf will be placed automatically\n"
+
+parser = argparse.ArgumentParser(description=description)
+parser.add_argument('-i', '--infile', type=str, help='Name of csv file to be used', required=True)
+parser.add_argument('-o', '--outfile', type=str, help='Name of pdf to be produced.  Do not type file extension', default='index')
+
+args = parser.parse_args()
+
+
+make_index(args.infile, args.outfile)
